@@ -3,7 +3,7 @@ layout: default
 author_profile: false
 ---
 
-![Benjamin D. Hayum](assets/images/ben-headshot.jpg)
+![Benjamin D. Hayum](assets/image/ben-headshot.jpg)
 
 ## Benjamin D. Hayum
 

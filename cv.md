@@ -7,36 +7,6 @@ author_profile: false
 ---
 
 <style>
-  html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
-
-  .page-content {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
-
-  .page {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
-
-  .main {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
-
-  .post {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
-
   .iframe-container {
     position: relative;
     width: 100%;
