@@ -1,6 +1,6 @@
 ---
 layout: home
-author_profile: true
+author_profile: false
 ---
 
 ![Benjamin D. Hayum](assets/images/ben-headshot.jpg)
