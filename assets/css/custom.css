@@ -1,199 +1,215 @@
-/* Ensure body and html take up the full height */
-html, body {
-  height: 100%;
-  margin: 0;
-  font-family: 'Merriweather', serif;
-  overflow-y: scroll; /* Ensure the scrollbar is always visible on the right */
-}
+/* Import Inter font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 
-html {
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
+/* Base styles */
 body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  color: #333333;
+  background-color: #F8F8F8;
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
-main {
-  flex: 1;
-  width: 100%; /* Ensure main takes the full width */
-  overflow-y: auto; /* Enable vertical scrolling in main */
+/* Header styles */
+header {
+  background-color: #2C5F5C;
+  padding: 1rem 0;
+  border-bottom: none;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-/* Set fixed height for the main content area and enable scrolling */
-.main-content {
-  max-width: 800px;
+header .container {
+  max-width: 960px;
   margin: 0 auto;
-  padding: 20px;
-  text-align: left;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.main-content img, .main-content p, .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
-  margin-left: 40px; /* Add left margin to create space */
-  text-align: left; /* Ensure text is left-aligned */
+header .site-title {
+  font-size: 2.5em;
+  margin: 0;
+  color: #F8F8F8;
+  font-family: 'Georgia', serif;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
 }
 
-.main-content img {
-  display: block;
-  margin: 20px auto; /* Center the image horizontally */
+header .site-title a {
+  color: #F8F8F8;
+  text-decoration: none;
 }
 
-.custom-footer {
-  background-image: url('/assets/image/footerimage.jpg'); /* Path to your image */
-  background-size: cover; /* Ensures the image covers the entire footer */
-  background-position: center; /* Centers the image */
-  color: white; /* Ensure text color is white for contrast */
-  padding: 10px 0; /* Padding around the footer */
-  margin-top: 20px; /* Add margin to control the space above the footer */
-  border-top: 1px solid #e7e7e7; /* Horizontal line above the footer */
-  text-align: center; /* Center the footer text */
-  font-weight: bold; /* Make the text bold */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add a text shadow for better visibility */
-  bottom: 0;
-  width: 100%;
-  box-sizing: border-box;
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  margin: 0;
+}
+
+header nav ul li {
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  color: #F8F8F8;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+  color: #8A9B68;
+}
+
+/* Main content styles */
+.main-content {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px 20px 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 20px rgba(0,0,0,0.05);
   position: relative;
+  flex-grow: 1;
 }
 
-.custom-footer .container {
-  max-width: 960px; /* Align content width */
-  margin: 0 auto; /* Center the footer content */
+/* Profile image and social links styles */
+.profile-image-container {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 10;
+  text-align: center;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.profile-image:hover {
+  transform: scale(1.05);
+}
+
+.social-links {
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  gap: 10px;
 }
 
-.custom-footer h3 {
-  font-size: 1.5em;
-  margin-bottom: 10px;
+.social-links a {
+  color: #2C5F5C;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #7E57C2;
+}
+
+/* Adjust main content margin to accommodate larger image and social links */
+.main-content > *:not(.profile-image-container) {
+  margin-left: 180px;
+}
+
+/* Typography styles */
+h1, h2, h3, h4, h5, h6 {
+  color: #2C5F5C;
+  font-family: 'Georgia', serif;
+}
+
+/* Research interests section */
+.research-interests {
+  background-color: #E0E5D8;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 30px;
+  border-left: 4px solid #8A9B68;
+}
+
+/* Simplified Footer styles */
+.custom-footer {
+  background-color: #2C5F5C;
+  color: #F8F8F8;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 0.9em;
 }
 
 .custom-footer p {
   margin: 0;
 }
 
-.custom-footer a {
-  color: #007bff; /* Link color */
+/* Link styles */
+a {
+  color: #7E57C2;
   text-decoration: none;
+  transition: color 0.3s ease;
 }
 
-.custom-footer a:hover {
+a:hover {
+  color: #2C5F5C;
   text-decoration: underline;
 }
 
-.contact-info {
-  background-color: rgba(0, 0, 0, 0.7); /* Black background with 70% opacity */
-  padding: 10px 20px; /* Reduced top padding */
-  border-radius: 10px; /* Rounded corners */
-  display: inline-block; /* Adjusts to the size of the content */
-  max-width: 90%; /* Prevents the box from being too wide */
-  text-align: center; /* Align text to the left */
+/* Subtle background pattern */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.02;
+  z-index: -1;
+  background-image: 
+    radial-gradient(#7E57C2 1px, transparent 1px),
+    radial-gradient(#8A9B68 1px, transparent 1px);
+  background-size: 50px 50px;
+  background-position: 0 0, 25px 25px;
+  pointer-events: none;
 }
 
-header {
-  background-color: #196e45;
-  padding: 10px 0;
-  border-bottom: 3px solid black; /* This adds a black line below the header */
-}
-
-header .site-title {
-  text-align: center;
-  font-size: 1.5em;
-  margin-bottom: 10px; /* Adjust this value to add more space */
-  font-weight: bold;
-}
-
-header .site-title a {
-  color: #d3d3d3; /* Change text color to light gray */
-  text-decoration: none;
-  font-weight: bold; /* Ensure the site title is bold */
-}
-
-header .site-title a:hover {
-  text-decoration: underline;
-}
-
-header nav {
-  display: flex;
-  justify-content: center;
-}
-
-header nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-header nav ul li {
-  margin: 0 15px;
-}
-
-header nav ul li a {
-  color: #d3d3d3; /* Change text color to light gray */
-  text-decoration: none;
-  font-weight: bold; /* Ensure the navigation links are bold */
-}
-
-header nav ul li a:hover {
-  text-decoration: underline;
-}
-
-/* Responsive adjustments */
+/* Responsive design */
 @media (max-width: 768px) {
-  .main-content {
-    padding: 10px;
-  }
-  
-  .main-content img, .main-content p, .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
-    margin-left: 20px; /* Reduce left margin for smaller screens */
-  }
-
-  .custom-footer .container {
+  header .container {
     flex-direction: column;
     text-align: center;
   }
 
-  header .site-title {
-    font-size: 1.2em;
-    margin-bottom: 5px;
-  }
-
   header nav ul {
-    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 
   header nav ul li {
-    margin: 5px 0;
-  }
-}
-
-@media (max-width: 480px) {
-  .main-content {
-    padding: 5px;
-  }
-  
-  .main-content img, .main-content p, .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
-    margin-left: 10px; /* Further reduce left margin for smaller screens */
+    margin: 5px 10px;
   }
 
-  header .site-title {
-    font-size: 1em;
-    margin-bottom: 5px;
+  .profile-image-container {
+    position: static;
+    margin-bottom: 20px;
   }
 
-  header nav ul {
-    flex-direction: column;
+  .profile-image {
+    margin: 0 auto;
   }
 
-  header nav ul li {
-    margin: 5px 0;
+  .main-content > *:not(.profile-image-container) {
+    margin-left: 0;
   }
 }

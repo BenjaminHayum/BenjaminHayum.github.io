@@ -1,13 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  {% include head.html %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-  {% include header.html %}
-  <main class="main-content">
-    {{ content }}
-  </main>
-  {% include footer.html %}
+    <header>
+        <div class="container">
+            <h1 class="site-title"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="{{ site.baseurl }}/publications">Publications</a></li>
+                    <li><a href="{{ site.baseurl }}/teaching">Teaching</a></li>
+                    <li><a href="{{ site.baseurl }}/cv">Curriculum Vitae</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="main-content" role="main">
+        <div class="profile-image-container">
+            <img src="{{ site.baseurl }}/assets/image/ben-headshot2.jpg" alt="Benjamin D. Hayum" class="profile-image">
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/benjamin-hayum-2a40b71b9/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/BenjaminHayum" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="mailto:bhayum@wisc.edu" title="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        {{ content }}
+    </div>
+
+    <footer class="custom-footer">
+        <p>© {{ site.time | date: '%Y' }} Benjamin D. Hayum. Powered by Jekyll.</p>
+    </footer>
 </body>
 </html>
