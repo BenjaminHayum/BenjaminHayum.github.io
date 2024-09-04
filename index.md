@@ -1,6 +1,8 @@
 ---
 layout: default
 author_profile: false
+title: "Benjamin D. Hayum - AI Safety Researcher and Computer Science PhD Student"
+description: "Benjamin D. Hayum is a PhD student in Computer Science at the University of Wisconsin - Madison, specializing in AI Safety, Machine Learning Interpretability, and Sparse Autoencoders."
 ---
 
 ## Benjamin D. Hayum
