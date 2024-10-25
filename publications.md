@@ -3,6 +3,8 @@ layout: default
 title: "Publications"
 permalink: /publications/
 author_profile: false
+description: "Research publications and presentations by Benjamin D. Hayum on AI Safety, RLHF behavior distribution analysis, machine learning interpretability, and neurological studies"
+keywords: "RLHF research, behavior distributions, AI Safety presentations, machine learning publications, delirium studies, neuroscience research, academic talks, AI policy, AI governance, Google DeepMind, METR, WAISI events, computer science research, University of Wisconsin-Madison"
 ---
 ## Publications
 
@@ -15,7 +17,9 @@ author_profile: false
 
 ### 2024
 
-“Navigating the Frontier of AI Development: Balancing Transformative Potential and Emerging Risks". *Introduction for Seb Krier from Google DeepMind*
+"A Conversation on AI and Society." *WAISI Panel Speaker Event with Professors Annette Zimmermann (Philosophy), Jerry Zhu (CS), and David Shaffer (Education).*
+
+“Navigating the Frontier of AI Development: Balancing Transformative Potential and Emerging Risks." *Introduction for Seb Krier from Google DeepMind*
 
 “Governing Frontier AI: Policy Challenges and Strategies”. *Introduction for Caleb Withers from Center for a New American Security*
 

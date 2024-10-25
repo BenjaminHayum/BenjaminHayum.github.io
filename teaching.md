@@ -3,6 +3,8 @@ layout: default
 title: "Teaching"
 permalink: /teaching/
 author_profile: false
+description: "Teaching experience and educational initiatives by Benjamin D. Hayum, including Data Science instruction at UW-Madison and leadership of the Wisconsin AI Safety Initiative (WAISI), focusing on AI safety education and research mentorship"
+keywords: "data science teaching, AI safety education, WAISI, Wisconsin AI Safety Initiative, research mentorship, Safety Scholars program, AI literacy, technical AI safety, policy AI safety, student research programs, BlueDot curriculum, Rise-AI Initiative, UW-Madison, computer science education, PhD student mentoring, AI safety curriculum, research skills development, AI policy education, machine learning education"
 ---
 
 ## Teaching Assistant
@@ -13,7 +15,7 @@ CS 220: Data Science Programming I in Fall 2024. Over 1,000 students enrolled in
 
 #### Research Programs
 
-Led design and execution of program to support student research skills growth via drop in office hours with more experienced PhD students.
+Led design and execution of program to support student research skills growth via weekly drop in office hours with more experienced PhD students and collaborative co-working hours.
 
 Aims to help build student capabilities in literature review, experimental design, conference submissions, rebuttals, productivity, time management, research seeking, mentor relationship building, graduate school and careers.
 
@@ -38,7 +40,7 @@ Selected papers read in Spring 2024:<br>
 
 Led design of infrastructure and customized curriculums based on [BlueDot's 8 Week AI Safety Fundamentals Program](https://aisafetyfundamentals.com/) to educate students in Technical AI Safety and Policy AI Safety.
 
-These programs have taught over 100 students at UW-Madison, with about 35 of them personally taught by myself.
+These programs have taught over 150 students at UW-Madison, with about 35 of them personally taught by myself.
 
 <p style="font-size: smaller;">
 Selected papers in Spring 2024 Curriculum:<br>
@@ -53,6 +55,6 @@ Selected papers in Spring 2024 Curriculum:<br>
 
 ## Rise-AI Initiative
 
-Involved with the Thought Leaders and Operations Teams of [UW-Madison's Rise-AI Initiative](https://rise.wisc.edu/rise-ai/) and their big investments in human-centered AI with respect to student involvement, coursework, and faculty hires.
+Met with Leaders [UW-Madison's Rise-AI Initiative](https://rise.wisc.edu/rise-ai/) to discuss bolstering student involvement, hosting interdisciplinary events on AI, and university strategy amidst uncertainty. 
 
-Held discussions with the [Center for Teaching, Learning & Mentoring](https://ctlm.wisc.edu/) on how to best educate and prepare students for an AI influenced future.
+Held discussions with the [Center for Teaching, Learning & Mentoring](https://ctlm.wisc.edu/) on what aspects of AI Literacy are most necessary to promote at the University and how we ought to do so.

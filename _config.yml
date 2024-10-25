@@ -51,6 +51,7 @@ navbar-links:
   Publications: "/Publications"
   CV: "/cv"
   Teaching: "/teaching"
+  Blog: "/blog"
 
 # Build settings
 markdown: kramdown
