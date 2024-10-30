@@ -13,24 +13,22 @@ description: "Benjamin D. Hayum is a PhD student in Computer Science at the Univ
 
 ### Research Interests
 
-- Tensor-Based Interpretability.
+- Data Efficient Preference Learning.
 
-- Evaluations and Robustness. 
+- Tensor-Based Interpretability. 
 
-- Sociotechnical AI Safety. 
+- Foundation Models and Sociotechnical AI Safety. 
 
-- Scaling and Foundation Models. 
-
-- Neuroscience Parallels.
+- Neuroscience.
 
 ### Get to know me
 
-Hey all, I’m Ben Hayum, a PhD student in Computer Sciences at the University of Wisconsin-Madison. 
+Hello, my name is Ben Hayum. As a PhD student in Computer Sciences at UW-Madison, I am driven by a sense of purpose to contribute to the responsible development of Artificial Intelligence.
 
-I was fortunate to be exposed to information early on that convinced me of just how massive the influence of AI was going to be on the future. Sitting with that realization made me see how it was personally impossible for me to not get involved and try to help work the trajectory for the better. 
+My journey began with simple exposures and then realization: AI will fundamentally reshape our future and be the defining challenge of our lifetime. This insight sparked not just academic interest, but a deep commitment to helping shepherd this technology toward better outcomes beyond [the trajectories set by baseline forces](https://www.narrativeark.xyz/p/the-gods-of-straight-lines).
 
-This lead me to found the [Wisconsin AI Safety Initiative](https://waisi.org/) which in 3 short semesters has now taught over 100 students about the spectrum of benefits, harms and risks due to AI, as well as the many technical and policy proposals to solve them. We currently retain around 35-40 students who participate in weekly frontier paper readings groups and many of whom are actively engaged with research on campus, spanning the laboratories of 7 different professors.
+This lead me to found the [Wisconsin AI Safety Initiative](https://waisi.org/) (WAISI) which in 4 short semesters has now taught over 150 students about the harms/risks due to AI and the contours of the technical and policy proposals to mitigate them. We retain 50 students, including 13 PhDs, in our advanced groups who participate in weekly frontier paper readings groups. These students span the laboratories of 11 different professors on campus.
 
-This also lead me to my current work with [Professor Grigoris Chrysos](https://grigorisg9gr.github.io/_pages/about/) using methods from the Tensor Literature for Interpretability improvements. In undergraduate, I worked with [Professor Sharon Li](https://pages.cs.wisc.edu/~sharonli/) exploring how Reinforcement Learning from Human Feedback influences the probability distributions of human-like behaviors. Before this, I worked with [Professor Matthew Banks](https://neuro.wisc.edu/staff/banks-matthew-i/), where I focused on neurometric analyses of patients under the influence of delirium and psychedelics. It may then come as little surprise that I am also really into meditation, spirituality, and mental performance.
+This lead me to my current work with [Professor Grigoris Chrysos](https://grigorisg9gr.github.io/_pages/about/) using methods from the Tensor Literature for Interpretability improvements. In undergraduate, I worked with [Professor Sharon Li](https://pages.cs.wisc.edu/~sharonli/) exploring how Reinforcement Learning from Human Feedback influences the probability distributions of positive and negative human-like behaviors. Before this, I worked with [Professor Matthew Banks](https://neuro.wisc.edu/staff/banks-matthew-i/), where I focused on neurometric analyses of patients under the influence of delirium and psychedelics. It then comes as little surprise that I am also really into meditation, spirituality, and mental performance.
 
-Feel free to reach out to me at [bhayum@wisc.edu](mailto:bhayum@wisc.edu) to discuss ML and interpretability research, getting involved with WAISI, the future, or anything in between!
+I am always exicted to connect with new people and spar friendly ideas together. Feel free to reach out to me at [bhayum@wisc.edu](mailto:bhayum@wisc.edu) to discuss ML Safety, WAISI, The Future, Building Bridges across Communities, or anything in between.

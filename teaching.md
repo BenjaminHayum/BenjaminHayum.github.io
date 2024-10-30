@@ -17,13 +17,13 @@ CS 220: Data Science Programming I in Fall 2024. Over 1,000 students enrolled in
 
 Led design and execution of program to support student research skills growth via weekly drop in office hours with more experienced PhD students and collaborative co-working hours.
 
-Aims to help build student capabilities in literature review, experimental design, conference submissions, rebuttals, productivity, time management, research seeking, mentor relationship building, graduate school and careers.
+See our Handbook [here](https://docs.google.com/document/d/1RXpxkFoX6PnItmJ083QVNK-PbBa106KRRlLh_g7Jyqk/edit?usp=sharing).
 
 #### Advanced Programs
 
 Led design and execution of infrastructure to host advanced weekly reading group in Technical AI Safety and Policy AI Safety. 
 
-This program, Safety Scholars, currently host about 35 students, including 6 PhD students and 3 Master's students.
+This program, Safety Scholars, currently host about 50 students, including 13 PhD students.
 
 <p style="font-size: smaller;">
 Selected papers read in Spring 2024:<br>
@@ -55,6 +55,6 @@ Selected papers in Spring 2024 Curriculum:<br>
 
 ## Rise-AI Initiative
 
-Met with Leaders [UW-Madison's Rise-AI Initiative](https://rise.wisc.edu/rise-ai/) to discuss bolstering student involvement, hosting interdisciplinary events on AI, and university strategy amidst uncertainty. 
+Met with Leaders [UW-Madison's Rise-AI Initiative](https://rise.wisc.edu/rise-ai/) to discuss bolstering student involvement, hosting interdisciplinary events on AI, and university strategy. 
 
-Held discussions with the [Center for Teaching, Learning & Mentoring](https://ctlm.wisc.edu/) on what aspects of AI Literacy are most necessary to promote at the University and how we ought to do so.
+Held discussions with the [Center for Teaching, Learning & Mentoring](https://ctlm.wisc.edu/) on what aspects of future AI Literacy are most necessary to promote at the University and how we ought to do so.
