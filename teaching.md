@@ -55,6 +55,6 @@ Selected papers in Spring 2024 Curriculum:<br>
 
 ## Rise-AI Initiative
 
-Met with Leaders [UW-Madison's Rise-AI Initiative](https://rise.wisc.edu/rise-ai/) to discuss bolstering student involvement, hosting interdisciplinary events on AI, and university strategy. 
+Met with Leaders of [UW-Madison's Rise-AI Initiative](https://rise.wisc.edu/rise-ai/) to discuss bolstering student involvement, hosting interdisciplinary events on AI, and university strategy. 
 
 Held discussions with the [Center for Teaching, Learning & Mentoring](https://ctlm.wisc.edu/) on what aspects of future AI Literacy are most necessary to promote at the University and how we ought to do so.
