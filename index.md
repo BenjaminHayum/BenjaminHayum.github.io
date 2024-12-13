@@ -13,7 +13,7 @@ description: "Benjamin D. Hayum is a PhD student in Computer Science at the Univ
 
 ### Research Interests
 
-- Data Efficient Preference Learning.
+- Data Efficient Policy/Preference Adaptation.
 
 - Tensor-Based Interpretability. 
 
